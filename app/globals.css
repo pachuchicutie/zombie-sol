@@ -24,3 +24,104 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Horror theme additions */
+.horror-bg {
+  background: radial-gradient(
+      ellipse at 20% 10%,
+      rgba(120, 10, 30, 0.55),
+      transparent 18%
+    ),
+    radial-gradient(ellipse at 80% 80%, rgba(25, 0, 60, 0.6), transparent 28%),
+    linear-gradient(180deg, #040004 0%, #0b0012 60%, #090007 100%);
+  color: #f5e9e9;
+}
+
+.horror-stars {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(
+      circle at 10% 20%,
+      rgba(255, 255, 255, 0.08) 0.5px,
+      transparent 0
+    ),
+    radial-gradient(
+      circle at 30% 40%,
+      rgba(255, 255, 255, 0.06) 0.7px,
+      transparent 0
+    ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(255, 255, 255, 0.05) 0.6px,
+      transparent 0
+    );
+  background-size: 200px 200px, 260px 260px, 180px 180px;
+  opacity: 0.95;
+  pointer-events: none;
+  animation: starsDrift 30s linear infinite;
+  z-index: -20;
+}
+
+@keyframes starsDrift {
+  from {
+    transform: translateY(0) translateX(0);
+  }
+  to {
+    transform: translateY(-120px) translateX(-40px);
+  }
+}
+
+.horror-grid {
+  position: absolute;
+  left: 50%;
+  bottom: -6%;
+  width: 140%;
+  height: 60%;
+  transform: translateX(-50%) skewX(-20deg) scaleY(0.55);
+  background-image: linear-gradient(
+      rgba(180, 60, 200, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(180, 60, 200, 0.1) 1px, transparent 1px);
+  background-size: 48px 48px, 48px 48px;
+  mix-blend-mode: screen;
+  filter: blur(0.6px) contrast(1.1) saturate(1.2);
+  z-index: -30;
+  pointer-events: none;
+}
+
+.horror-title {
+  font-size: clamp(3.5rem, 8vw, 7.5rem);
+  line-height: 0.9;
+  color: #ffe8e8;
+  -webkit-text-stroke: 6px #0b0012;
+  text-shadow: 0 6px 0 rgba(0, 0, 0, 0.8), 0 12px 30px rgba(200, 10, 40, 0.45),
+    0 0 24px rgba(255, 20, 50, 0.18);
+  display: inline-block;
+}
+
+.horror-cta {
+  background: linear-gradient(180deg, #8b0000, #5a0000);
+  color: #fff;
+  box-shadow: 0 6px 24px rgba(180, 20, 30, 0.4),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.06);
+}
+
+.avatar-ring {
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 18px rgba(255, 0, 40, 0.12);
+}
+
+.hero-image-eerie {
+  filter: hue-rotate(-20deg) saturate(1.05) contrast(1.08)
+    drop-shadow(0 20px 40px rgba(200, 10, 30, 0.35));
+}
+
+.nav-panel {
+  background: rgba(10, 6, 20, 0.6);
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(4px);
+  border-radius: 12px;
+  padding: 8px 14px;
+}
