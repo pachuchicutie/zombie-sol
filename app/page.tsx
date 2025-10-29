@@ -22,7 +22,7 @@ export default function Home() {
           </div>
           <div className="flex gap-3">
             <a
-              href="https://pump.fun/"
+              href="https://pump.fun/coin/91fu9ukPhzhPJriL4xpNbfDwGagJY1SkRDneqsQvpump"
               className="cursor-pointer rounded-full horror-cta px-4 py-2 text-sm font-semibold text-white shadow hover:brightness-95"
             >
               BUY NOW
@@ -46,13 +46,13 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://pump.fun/"
+                href="https://pump.fun/coin/91fu9ukPhzhPJriL4xpNbfDwGagJY1SkRDneqsQvpump"
                 className="rounded-full horror-cta px-6 py-3 text-sm font-semibold text-white shadow"
               >
                 BUY NOW
               </a>
               <a
-                href="https://pump.fun/"
+                href="https://pump.fun/coin/91fu9ukPhzhPJriL4xpNbfDwGagJY1SkRDneqsQvpump"
                 className="rounded-full border border-neutral-700 bg-transparent px-6 py-3 text-sm font-medium text-neutral-200"
               >
                 Learn more
