@@ -41,6 +41,9 @@ export default function Home() {
               a horror vibe. Use this as a starting point and I can tune color,
               spacing, and effects to match the screenshot more closely.
             </p>
+            <p className="max-w-xl text-lg text-neutral-300">
+              CA: 91fu9ukPhzhPJriL4xpNbfDwGagJY1SkRDneqsQvpump
+            </p>
             <div className="flex flex-wrap gap-4">
               <a
                 href="https://pump.fun/"
