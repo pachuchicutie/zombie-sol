@@ -22,7 +22,7 @@ export default function Home() {
           </div>
           <div className="flex gap-3">
             <a
-              href="https://pump.fun/coin/91fu9ukPhzhPJriL4xpNbfDwGagJY1SkRDneqsQvpump"
+              href="https://www.daos.fun/CCnzY2SpHvXH4PrpuGbzyoKQsqTTC646LkaCCvJLdaos"
               className="cursor-pointer rounded-full horror-cta px-4 py-2 text-sm font-semibold text-white shadow hover:brightness-95"
             >
               BUY NOW
@@ -42,17 +42,17 @@ export default function Home() {
               spacing, and effects to match the screenshot more closely.
             </p>
             <p className="max-w-xl text-lg text-neutral-300">
-              CA: 91fu9ukPhzhPJriL4xpNbfDwGagJY1SkRDneqsQvpump
+              CA: CCnzY2SpHvXH4PrpuGbzyoKQsqTTC646LkaCCvJLdaos
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://pump.fun/coin/91fu9ukPhzhPJriL4xpNbfDwGagJY1SkRDneqsQvpump"
+                href="https://www.daos.fun/CCnzY2SpHvXH4PrpuGbzyoKQsqTTC646LkaCCvJLdaos"
                 className="rounded-full horror-cta px-6 py-3 text-sm font-semibold text-white shadow"
               >
                 BUY NOW
               </a>
               <a
-                href="https://pump.fun/coin/91fu9ukPhzhPJriL4xpNbfDwGagJY1SkRDneqsQvpump"
+                href="https://www.daos.fun/CCnzY2SpHvXH4PrpuGbzyoKQsqTTC646LkaCCvJLdaos"
                 className="rounded-full border border-neutral-700 bg-transparent px-6 py-3 text-sm font-medium text-neutral-200"
               >
                 Learn more
@@ -78,7 +78,7 @@ export default function Home() {
           <Card title="TICKER" value="$ZOMBIE" />
           <Card title="TAXES" value="0%" />
           <Card title="TOKEN SUPPLY" value="1,000,000,000" />
-          <Card title="PLATFORM" value="pump.fun" />
+          <Card title="PLATFORM" value="daos.fun" />
         </section>
       </main>
 
